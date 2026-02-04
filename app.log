@@ -1,0 +1,5 @@
+echo "INFO App started" >> app.log
+echo "ERROR Database connection failed" >> app.log
+echo "INFO Retrying connection" >> app.log
+echo "ERROR Timeout occurred" >> app.log
+

@@ -1,0 +1,19 @@
+Browser sends HTTP request to server.
+Server recieves the request and sends the response back to browser
+HTTP is just a language to communicate between both same as how we communicate in english
+
+---------------------
+Flask is python web framework(contains dependencies,libraries) which starts web server listening to port 5000 for any incoming http request.
+
+app=flask("__name__")
+This indicates we are creating object called name which contains location of files and assigned to variable name called app.
+
+@app.route("/")
+def home
+return ("hello")
+
+if ("__name__')="__main__"
+app.run("debug=true")
+
+If we assign object as main, then server starts when the program is executed directly.
+If this program is imported for another program, this condition wont let server start automaticall.

@@ -16,4 +16,33 @@ if ("__name__')="__main__"
 app.run("debug=true")
 
 If we assign object as main, then server starts when the program is executed directly.
-If this program is imported for another program, this condition wont let server start automaticall.
+If this program is imported for another program, this condition wont let server start automatically.
+
+127.0.0.1 = Local host
+
+--------------------------------------
+QA:
+
+What happens when you run python app.py?
+Ubuntu triggers python interpreter which inturn executes the app.py program
+
+
+What is Flask?
+Flask is python webframework which contains set of dependencies and libraries .
+FLask starts the web server which listens to port 5000.
+It provides components needed to build web app such as routing, templte rendering,request andling, response generation.
+
+Why do we use render_template()?
+To render the page in UI. It reads HTML template from templates folder  and returns HTTP reponse to browser.
+
+Why do we have a templates folder?
+We can use multiple HTML pages inside a folder which can be accessed by flask app.
+If we dont use templates folder, html files will be randomly spread, it wont be a good project structure.
+
+What does 200 mean in the terminal?
+Success.
+
+What is the difference between localhost and 127.0.0.1?
+Local host is domain name and 127.0.0.1 is thr IP address 
+Local host is like name in our contact list and IP is like mobile phone number.
+

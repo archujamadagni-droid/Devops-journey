@@ -46,3 +46,12 @@ What is the difference between localhost and 127.0.0.1?
 Local host is domain name and 127.0.0.1 is thr IP address 
 Local host is like name in our contact list and IP is like mobile phone number.
 
+
+-------------------------------------------------------
+
+
+Why is venv used..?
+It resolves dependency conflict and for isolation purpose.
+When multiple apps need diff versions of python, any changes made in version, affects all apps.
+Hence it is best to use apps in venv so that it doesnt affect other apps
+
